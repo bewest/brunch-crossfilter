@@ -24,11 +24,13 @@ exports.config =
 
     templates:
       defaultExtension: 'hbs'
-      joinTo: 'javascripts/app.js'
+      joinTo:
+        'javascripts/app.js' : /.+\.hbs$/
+        'js/templates.js' : /.+\.jade$/
+
   plugins:
     jade:
       pretty: yes
     static_jade:
-      extension: ".static.jade"
-      path: [ /app(\/|\\)docs/ ]
-      asset: "app/jade_asset"
+      pretty: true
+      extension: ".jade"
