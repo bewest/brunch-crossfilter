@@ -14,7 +14,7 @@ It currently reproduces the square demo.
 
 ## Getting started
 
-Run `brunch new <app> -s github://brunch/simple-js-skeleton` & `brunch build`.
+Run `brunch new <app> -s github://bewest/brunch-crossfilter` && `brunch build`.
 See more info on the [official site](http://brunch.io)
 
 ## Overview
@@ -22,8 +22,9 @@ See more info on the [official site](http://brunch.io)
     config.coffee
     README.md
     /app/
+      index.jade
       /assets/
-        index.html
+        flights-3m.json
         images/
       /lib/
       models/
