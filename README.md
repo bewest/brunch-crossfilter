@@ -1,9 +1,16 @@
 # Brunch with js
+
 This is a simple js skeleton for [Brunch](http://brunch.io/).
 
 Main languages are JavaScript,
-[Stylus](http://learnboost.github.com/stylus/) and
-[Handlebars](http://handlebarsjs.com/).
+[Stylus](http://learnboost.github.com/stylus/) for stylsheets and
+[Handlebars](http://handlebarsjs.com/) for the rare client side template,
+[Jade](http://jade-lang.com/) for static templating.
+
+## Crossfilter demo
+
+This is primed for experimenting with crossfilter + d3.
+It currently reproduces the square demo.
 
 ## Getting started
 
